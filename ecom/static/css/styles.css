@@ -1,0 +1,84 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #008080; /* Teal color */
+    color: white;
+    padding: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Cover Image section styles */
+section {
+    background-color: #004d40; /* Darker teal color */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.5rem;
+}
+
+/* Main Content styles */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #004d40; /* Darker teal color */
+    font-size: 2rem;
+}
+
+main p {
+    font-size: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #008080; /* Teal color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center; /* Centers the product horizontally */
+    align-items: center;     /* Centers the product vertically if container height is set */
+    height: 100vh;           /* Full viewport height */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.product-item {
+    text-align: center;      /* Centers text inside the product item */
+    max-width: 400px;        /* Optional: Restricts the width of the product item */
+    margin: 0 auto;          /* Optional: Centers the product item within its container */
+}
+
+.product-item img {
+    max-width: 100%;         /* Ensures the image is responsive and does not exceed the container width */
+    height: auto;
+                /* Maintains the aspect ratio of the image */
+}
